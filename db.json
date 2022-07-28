@@ -1,0 +1,73 @@
+{
+    "productos" : [
+        {
+            "id" : 1,
+            "name" : "Producto 1",
+            "cost" : 5.1,
+            "unit_price" : 6.0
+        },
+        {
+            "id" : 2,
+            "name" : "Producto 2",
+            "cost" : 10.0,
+            "unit_price" : 12.0
+        }
+    ],
+    "ruta" : [
+        {
+            "id" : 1,
+            "fecha" : "28/07/2022",
+            "total_venta" : 10585.5,
+            "ganancia_venta" : 677.9,
+            "pagares" : [
+                {
+                    "cliente" : "Jose Perez",
+                    "total" : 200.5
+                }
+            ],
+            "productos" : [
+                {
+                    "id" : 1,
+                    "cantidad_total" : 10,
+                    "cantidad_vendida" : 8,
+                    "cantidad_sobrante" : 2,
+                    "total" : 200.70
+                },
+                {
+                    "id" : 2,
+                    "cantidad_total" : 9,
+                    "cantidad_vendida" : 2,
+                    "cantidad_sobrante" : 7,
+                    "total" : 450.70
+                }
+            ],
+            "diferencia" : 0
+        },
+        {
+            "id" : 2,
+            "fecha" : "27/07/2022",
+            "total_venta" : 8585.5,
+            "ganancia_venta" : 355.0,
+            "pagares" : [
+                {
+                    "cliente" : "Jose Perez",
+                    "total" : 200.5
+                },
+                {
+                    "cliente" : "Luis Chavez",
+                    "total" : 105.5
+                }
+            ],
+            "productos" : [
+                {
+                    "id" : 1,
+                    "cantidad_total" : 10,
+                    "cantidad_vendida" : 8,
+                    "cantidad_sobrante" : 2,
+                    "total" : 200.70
+                }
+            ],
+            "diferencia" : 0
+        }
+    ]
+}
